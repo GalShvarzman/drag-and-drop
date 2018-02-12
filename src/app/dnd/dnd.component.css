@@ -1,0 +1,41 @@
+  .dropzone {
+      min-height: 200px;
+      min-width: 200px;
+      display: table;
+      width: 100%;
+      background-color: #eee;
+      border: dotted 1px #aaa; 
+    }
+    
+    .text-wrapper {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    
+    .centered {
+      font-size: 24px;
+      font-weight: bold;
+      text-align:center;
+    }
+  
+    .dropzone-list > ul {
+      width: 30%;
+      list-style: none;
+    }
+    .dropzone-list > ul > li:before {
+      content : '+';
+      color: #6def9a;
+    }
+    .dropzone-list > ul > li {
+      padding-bottom: 5px;
+      padding-left: 10px;
+    }
+    .dropzone-list > ul.invalid > li:before {
+      content : '-';
+      color: #ef000f;
+    }
+    
+    .message{
+      font-size: 18px;
+      font-weight: bold;
+    }

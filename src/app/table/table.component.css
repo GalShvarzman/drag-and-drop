@@ -1,0 +1,32 @@
+mat-header-row{
+    background: rgb(77, 99, 221);
+}
+mat-header-cell{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+mat-header-cell:hover{
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.filter {
+    min-height: 64px;
+    padding: 8px 24px 0;
+}
+
+.mat-form-field {
+    font-size: 20px;
+    width: 50%;
+}
+
+.mat-table {
+    overflow: auto;
+}
